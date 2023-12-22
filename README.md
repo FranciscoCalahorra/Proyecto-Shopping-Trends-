@@ -1,1 +1,1 @@
-# Proyecto-Shopping-Trends-
+The following practical case was created using artificial intelligence, utilizing a dataset from the public domain regarding consumer behaviour and purchasing habits. To do it, I used Excel, SQL, and R for cleaning and analysing the data. Finally, I used Tableau to make the data come alive in the images.
