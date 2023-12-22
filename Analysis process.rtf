@@ -1,0 +1,65 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang3082{\fonttbl{\f0\fnil\fcharset0 Verdana;}{\f1\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red55\green65\blue81;\red0\green0\blue0;\red255\green255\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sl259\slmult0\cf1\ul\b\f0\fs26\lang10 Exploratory data analysis to understand general trends and purchasing patterns:\ulnone\par
+\par
+
+\pard\sa200\sl276\slmult1\cf0\b0\fs24 To discover trends in the categories, I first used SQL queries in BigQuery, resulting in a table that displays the categories in order along with the total sales for each one. This order remains unaffected by the different times of the year.\f1\fs22\par
+
+\pard\sa160\sl259\slmult0\cf2\b\fs24 Category\cf0\b0\fs22\tab\cf2\b\fs24 Ventas Totales\par
+\b0 Clothing\cf0\fs22\tab\cf2\fs24 104.264\cf0\fs22\par
+\cf2\fs24 Accessories\cf0\fs22\tab\cf2\fs24 74.200\cf0\fs22\par
+\cf2\fs24 Footwear\cf0\fs22\tab\cf2\fs24 36.093\cf0\fs22\par
+\cf2\fs24 Outerwear\cf0\fs22\tab\cf2\fs24 18.524\cf0\fs22\par
+
+\pard\sa200\sl276\slmult1\f0\fs24 Then, I created queries to view the best-selling products overall and also during different times of the year. The top 10 products with the highest sales participation for the year are as follows:\par
+\f1\lang3082\par
+\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\clbrdrr\brdrw12\brdrs\brdrcf3 \cellx3005\clvertalc\clcfpat2\clcbpat3\clbrdrr\brdrw12\brdrs\brdrcf3 \cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\b\lang10 Item\b0\fs22\cell\b\fs24 Total sales\b0\fs22\cell\cell\row\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\cellx3005\clvertalc\clcfpat2\clcbpat3\cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\fs24 Blouse\fs22\cell\fs24 10410\fs22\cell\cell\row\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\cellx3005\clvertalc\clcfpat2\clcbpat3\cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\fs24 Shirt\fs22\cell\fs24 10332\fs22\cell\cell\row\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\cellx3005\clvertalc\clcfpat2\clcbpat3\cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\fs24 Dress\fs22\cell\fs24 10320\fs22\cell\cell\row\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\cellx3005\clvertalc\clcfpat2\clcbpat3\cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\fs24 Pants\fs22\cell\fs24 10090\fs22\cell\cell\row\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\cellx3005\clvertalc\clcfpat2\clcbpat3\cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\fs24 Jewelry\fs22\cell\fs24 10010\fs22\cell\cell\row\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\cellx3005\clvertalc\clcfpat2\clcbpat3\cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\fs24 Sunglasses\fs22\cell\fs24 9649\fs22\cell\cell\row\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\cellx3005\clvertalc\clcfpat2\clcbpat3\cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\fs24 Belt\fs22\cell\fs24 9635\fs22\cell\cell\row\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\cellx3005\clvertalc\clcfpat2\clcbpat3\cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\fs24 Scarf\fs22\cell\fs24 9561\fs22\cell\cell\row\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\cellx3005\clvertalc\clcfpat2\clcbpat3\cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\fs24 Sweater\fs22\cell\fs24 9462\fs22\cell\cell\row\trowd\trgaph108\trrh300\trpaddl108\trpaddr108\trpaddfl3\trpaddfr3
+\clvertalc\clcfpat2\clcbpat3\cellx3005\clvertalc\clcfpat2\clcbpat3\cellx6010\clvertalc\clcfpat2\clcbpat3\cellx9015 
+\pard\intbl\sa160\sl259\slmult0\fs24 Shorts\fs22\cell\fs24 9433\fs22\cell\cell\row 
+\pard\sa200\sl276\slmult1\par
+\f0\fs24 Then, I charted the best-selling products, categorizing them into the four seasons to assess their performance. This revealed that items like belts, blouses, T-shirts, and dresses maintain a steady demand, suggesting that our marketing efforts should focus on further strengthening their market position across different seasons. On the other hand, products like jewellery, trousers, and sunglasses show more seasonal variations. Additionally, some products didn't make it to the overall top 10 in annual sales but emerged as seasonal best-sellers, such as hats, handbags, and jackets in autumn; skirts, shoes, and T-shirts in spring; shoes, backpacks, and coats in summer; and hoodies, T-shirts, and skirts in winter.\par
+This indicates the presence of several seasonal products, prompting the suggestion to devise marketing strategies and specific promotions to capitalize on these seasonal trends. Offering special discounts for items more popular in certain seasons and considering launching new complementary products aligned with consumer preferences would be beneficial.\par
+I proceeded to determine the sales participation by states using SQL.\par
+Subsequently, I employed R to filter the sales by season and aggregate them by states, resulting in a list showcasing the sales participation of each state during different seasons:\par
+Are there states experiencing significant increases or declines in certain seasons?\par
+States such as Alaska, Wisconsin, South Dakota, and Virginia exhibit significant drops in sales during specific seasons. Conversely, states like Montana, North Dakota, California, and Illinois show slight percentage variations in their sales across different seasons.\par
+I suggest collaborating with the marketing team to devise customised strategies for each region and adjusting promotion strategies based on seasonality to further boost sales during specific seasons where states show declines.\par
+I continued by using SQL to uncover the preferred payment methods overall. Subsequently, I created a map charting the most utilised payment method in each state. This aims to recommend adjusting the offered payment options in the online store to mirror the preferences of each state, ensuring prioritisation of the most used payment methods in each region.\par
+Consider the possibility of offering promotions or discounts for certain preferred payment methods in different states. This approach could encourage customers to use the most common payment method in their location. Always seek customer feedback regarding their payment method experiences to leverage this information for adjustments and enhance the shopping experience on the online store.\par
+\par
+\cf1\ul\b\fs26 Segmenting customers based on their purchasing habits and preferences in order to group them accordingly:\ulnone\par
+\b0\fs24 I used SQL to create queries allowing me to segment by gender to understand their purchasing trends and favourite payment methods:\par
+I began with a query to identify the most purchased products for each gender, aiming to compare their preferences and total expenditure. This comparison is intended to recommend promotions and discounts on the top-selling products for each gender during festive dates and special occasions, such as Mother's or Father's Day.\par
+Following that, I employed R to analyze purchase frequency within the segmentation, aiming to recognize the optimal frequency for running promotions and discounts tailored to each gender. Additionally, I analysed the preferred payment method for each purchase frequency and gender. This analysis aims to enhance future promotions based on the preferred payment methods for each gender according to their purchase frequency.\par
+\par
+\ul\b\fs26 Using review ratings to assess customer satisfaction and how it correlates with other factors:\par
+\ulnone\b0\fs24 I analysed the review ratings across all factors to identify those with the most significant impact on the overall score, highlighting location and shipping type as the factors exhibiting the most substantial differences.\par
+Subsequently, I employed R to analyze the average rating across different states. Then, I averaged the ratings based on shipping type and further analysed the average ratings for each shipping type across all states. This analysis identified the states where improvements could be made regarding specific shipping types\par
+\ul\par
+\b\fs26 Analyzing the effectiveness of discounts:\par
+\ulnone\b0\fs24 I used SQL to analyze the quantity of applied discounts. Following that, I crafted a query displaying the applied discounts alongside subscription status and payment method type. This revealed that the quantity of applied discounts across all payment methods is higher in sales made by subscribed customers. This information is valuable for enhancing the campaign to increase the number of subscribers, emphasising discounts. Notably, in purchases where no discount was applied, the customer was not a subscriber. There's also potential to run promotions for debit and credit cards, as they are the most utilized methods by subscribers with applied discounts, while they apply the fewest discounts for non-subscribers.\par
+I created a query showcasing the average ratings in purchases with and without applied discounts, revealing practically no difference between them. Surprisingly, the average rating was even higher in purchases where no discounts were applied.\par
+Finally, I generated a query displaying the preferred payment methods of non-subscribed customers for purchases without applied discounts. This information aims to recommend promotions and discounts via those payment methods to subscribers, ultimately attracting new customers.\cf0\par
+}
+ 
